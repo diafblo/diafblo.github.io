@@ -471,7 +471,7 @@ h1,.h1{
 	.banner_btn{
 		margin-bottom:20px}}
 	.hero-banner{
-		position:relative;
+		/*position:relative;*/
 		height:400px;
 		background:url("../img/banner/hero-banner.png") center no-repeat;
 		background-size:cover;z-index:1}

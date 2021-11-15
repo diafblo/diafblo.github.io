@@ -142,6 +142,81 @@ h1,.h1{
 		box-shadow:none;
 		margin:0px;
 		background:#fff}
+@media (min-width: 991px){
+	.header_area .navbar{
+		padding:26px 0}}
+	.header_area .navbar .logo .logo-item{
+		margin-right:30px}
+	.header_area .navbar .logo .logo-item .logo-link{
+		font-family:"Lora",sans-serif;
+		color:#222;
+		font-size:35px;
+		text-transform:capitalize;
+		font-weight:700;
+		display:inline-block}
+	.header_area .navbar .logo .logo-item .logo-link:after{
+		display:none}
+	.header_area .navbar .logo .logo-item:hover .logo-link,.header_area .navbar .logo .logo-item.active .logo-link{
+		color:#80dc03;
+		opacity:1}
+	.header_area .navbar .logo .logo-item.submenu{
+		position:relative}
+	.header_area .navbar .logo .logo-item.submenu ul{
+		border:none;
+		padding:0px;
+		border-radius:0px;
+		box-shadow:none;
+		margin:0px;
+		background:#fff}
+
+
+		@media (min-width: 992px){
+	.header_area .navbar .logo .logo-item.submenu ul{
+		position:absolute;
+		top:120%;
+		left:0px;
+		min-width:200px;
+		text-align:left;
+		opacity:0;
+		transition:all 300ms ease-in;
+		visibility:hidden;
+		display:block;
+		border:none;
+		padding:0px;
+		border-radius:0px;
+		box-shadow:0px 10px 30px 0px rgba(0,0,0,0.4)}}
+	.header_area .navbar .logo .logo-item.submenu ul:before{
+		content:"";
+		width:0;
+		height:0;
+		border-style:solid;
+		border-width:10px 10px 0 10px;
+		border-color:#eeeeee transparent transparent transparent;
+		position:absolute;
+		right:24px;
+		top:45px;
+		z-index:3;
+		opacity:0;
+		transition:all 400ms linear}
+	.header_area .navbar .logo .logo-item.submenu ul .logo-item{
+		display:block;
+		float:none;
+		margin-right:0px;
+		border-bottom:1px solid #ededed;
+		margin-left:0px;
+		transition:all 0.4s linear}
+	.header_area .navbar .logo .logo-item.submenu ul .logo-item .logo-link{
+		line-height:45px;
+		color:#80dc03 !important;
+		padding:0px 30px;
+		transition:all 150ms linear;
+		display:block;
+		margin-right:0px}
+	.header_area .navbar .logo .logo-item.submenu ul .logo-item:last-child{
+		border-bottom:none}
+	.header_area .navbar .logo .logo-item.submenu ul .logo-item:hover .logo-link{
+		background-color:#80dc03;
+		color:#fff !important}
 @media (min-width: 992px){
 	.header_area .navbar .nav .nav-item.submenu ul{
 		position:absolute;
@@ -220,6 +295,8 @@ h1,.h1{
 	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link{
 		line-height:20px}
 	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link,.header_area.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link{
+		color:#fff}
+	.header_area.navbar_fixed .main_menu .navbar .logo .logo-item:hover .logo-link,.header_area.navbar_fixed .main_menu .navbar .logo .logo-item.active .logo-link{
 		color:#fff}
 @media (min-width: 992px){
 	.header_area.white_menu .navbar .navbar-brand img{

@@ -410,23 +410,7 @@ a.icon {
   text-align: center;
  /* padding-top: 1000vh;*/
 }
-/*
-#header .header-thumb {
-  background: #ffffff;
-  border: 10px solid #f9f9f9;
-  padding: 62px 20px 62px 20px;
-}
 
-.header-one .header-thumb,
-.header-two .header-thumb,
-.header-three .header-thumb,
-.header-four .header-thumb,
-.header-five .header-thumb {
-  padding: 32px 20px 32px 20px !important;
-
-  height: 1000vh !important;
-  max-width: 100% ;
-}*/
 
 .header-two,
 .header-three, .header-four,
@@ -445,18 +429,7 @@ a.icon {
   margin-left: auto;
   margin-right: auto;
   
-  /*
-  height: 60vh !important;min-width: 2356px;
-  min-height: 520px;
-  padding-top: 150px !important;
-   padding-top: 10px !important;
-  
-  height: 500vh !important;
 
-    min-height: 9000px !important ;
-  min-width: 100% !important ;
-  vertical-align: middle;
-  */
 }
 .header-two {
   background: url('../images/header-bg.jpg') no-repeat;
